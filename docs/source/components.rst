@@ -68,7 +68,7 @@ It is also possible to use :math:`R` parameter with the following relationship: 
 In the ``phys`` library the beam splitters are described by four parameters: :math:`\theta, \phi_a, \phi_b, \phi_c`,
 where :math:`\theta` and :math:`\phi_b` correspond to the above :math:`\theta` and :math:`\phi`. :math:`\phi_a`
 and :math:`\phi_c` are additional phases that can be observed in actual devices.
-These can that can be achieved in practice with the simplified unitary (present in the ``symb`` library) by using phase
+That can be achieved in practice with the simplified unitary (present in the ``symb`` library) by using phase
 shifters at the input and output of the beamsplitter and thus are included for compactness directly into the component.
 
 To create a beam splitter object from the ``phys`` library:
